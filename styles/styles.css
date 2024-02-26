@@ -1,0 +1,389 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("../fonts/gilroy-bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("../fonts/gilroy-medium.ttf");
+  font-weight: 400;
+}
+
+html,
+body {
+  font-size: 18px;
+  line-height: 22px;
+  background-size: 100% 100%;
+  height: 100%;
+  font-family: Gilroy-Medium;
+}
+a {
+  color: #070707;
+  
+}
+a:hover {
+  color: #070707;
+  text-decoration-line: none;
+}
+.author-header {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.main-page {
+  display: flex;
+  justify-content:space-between;
+  align-items: end;
+  padding: 15px;
+}
+.main-sadow {
+  flex-grow: 1;
+}
+.font-bold {
+  font-family: Gilroy-Bold;
+}
+.font-grey {
+  color:#828282;
+}
+
+.home-icon {
+  margin-bottom: 1rem;
+  display: none;
+}
+
+hr {
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.font-max {
+  font-size: 45px;
+  line-height: 59px;
+  padding-bottom: 20px;
+}
+.tansform-p {
+  transform: rotate(-90deg);
+  padding: 1.5rem 0;
+}
+.main-info {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+.author-name{
+  margin-bottom: 40px;
+}
+.author-foto {
+  width: 100%;
+  max-width: 300px;
+  padding: 0 0 10px 10px;
+  margin-bottom: 5.5rem;
+}
+
+.content-about {
+  background: #F6F6F6;
+  padding: 6.5rem 0;
+}
+.content {
+  background: #F6F6F6;
+  padding-bottom: 6.5rem;
+}
+.center {
+  text-align: center;
+  padding: 6.5rem 0;
+}
+.title-about {
+font-size: 1.9rem;
+line-height: 2.2rem;
+padding-bottom: 1.2rem;
+color: #070707;
+}
+.text-about {
+  width: 35%;
+  margin: auto ;
+  padding:2rem;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #070707;
+}
+
+.text-skills {
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  padding: 6.5rem 0 2rem 0;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6rem;
+}
+.adobe {
+  font-size: 1.7rem;
+  line-height: 1rem;
+  padding-top: 1.3rem;
+  color: #828282;
+}
+
+.work-edu {
+  display:flex;
+  flex-direction: column;
+  max-width: 1180px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  padding-bottom: 3rem;
+}
+.pad {
+  padding-bottom: 3rem;
+}
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0f0f0f;
+}
+.organization:hover {
+  color: #0f0f0f;
+}
+.data {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+}
+
+
+.flex-header{
+  padding-top: 6rem;
+}
+
+span {
+  font-size: 1.5rem;
+}
+.portfolio-about {
+  background: #F6F6F6;
+  text-align: center;
+}
+.portfolio-about {
+  font-family: 'Gilroy-Bold';
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  color: #070707;
+  padding: 3rem 0 3rem 0;
+  margin: 0;
+  }
+    .portfolio-about img {
+      width: 100%;
+      max-width: 1180px;
+      gap: 30px;
+    }
+  .link-portfolio {
+  display: block;
+  font-family: 'Gilroy-Medium';
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-decoration-line: underline;
+  color: #070707;
+  padding: 2.5rem 0 5.5rem 0;
+  }
+
+  .contacts {
+  font-family: 'Gilroy-Bold';
+  font-size: 1.9rem;
+  line-height: 2.2rem;
+  color: #070707;
+  padding: 6rem 0 1.1rem 0;
+  margin: 0;
+  }
+  .contact-text1 {
+  font-family: 'Gilroy-Medium';
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #070707;
+  }
+  .contact-btn {
+  font-family: 'Gilroy-Bold';
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: .7rem 1.7rem;
+  margin: 2.3rem 0 2.5em 0;
+  color: #FFFFFF;
+  background: black;
+  border-radius: 2rem;
+  
+  }
+  
+  .contact-text2 {
+  font-family: 'Gilroy-Medium';
+  font-size: .7rem;
+  line-height: 1rem;
+  color: #828282;
+  padding: 2.5rem 0 6.8rem 0;
+  }
+
+.header-burger, .header-menu {
+display: none;
+}
+
+
+
+@media screen and (max-width: 640px) {
+hr, .img-cont, .header{
+  display: none;
+}
+.header-body {
+position: relative;
+z-index: 2;
+height: 80px;
+}
+.header-burger {
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.header-burger:before,
+.header-burger:after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.header-burger:before {
+  top: 0;
+}
+
+.header-burger:after {
+  bottom: 0;
+}
+
+.header-burger.active-burger:before {
+  transform: rotate(45deg);
+  top: 9px;
+}
+
+.header-burger.active-burger:after {
+  transform: rotate(-45deg);
+  bottom: 9px;
+}
+
+.header-burger.active-burger span {
+  transform: scale(0);
+}
+
+.header-burger span {
+  position: absolute;
+  background-color: black;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 9px;
+  transition: all 0.3s ease 0s;
+}
+.header-body {
+  position: relative;
+  height: 50px;
+}
+
+.header-menu {
+  font-size: 1.5rem;
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 70px 20px 20px 35px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.header-menu.active-burger {
+  top: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.header-menu a {
+  padding-bottom: .5rem;
+}
+
+.home-icon {
+    position: absolute;
+    top: 3.5rem;
+    right: 1rem;
+    cursor: pointer;
+    padding: .3rem;
+    display: block;
+}
+
+.flex-header {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.author-header{
+  display: block;
+}
+.author-foto{
+  max-width: 250px;
+  
+}
+.text-about {
+  width: 90%;
+}
+.flex {
+  display: inline-block;
+  padding-bottom: 3rem ;
+}
+.portfolio-about > img {
+  width: 100%;
+}
+.shadow {
+  display: flex;
+}
+
+.flex-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+}
+}
+
+
+#go-top {
+  background: transparent;
+  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+  color: #000;
+  font-size: .8rem;
+  padding: 0.4rem 1rem;
+  position: fixed;
+  right: 0;
+  top: 80%;
+  z-index: 3;
+}
