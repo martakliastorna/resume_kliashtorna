@@ -373,7 +373,10 @@ height: 80px;
 
 }
 }
-
+.list {
+  list-style-type: none;
+  padding-bottom: 4rem;
+}
 
 #go-top {
   background: transparent;
